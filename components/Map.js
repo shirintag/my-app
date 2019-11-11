@@ -27,13 +27,18 @@ export default function Map() {
                 coordinate={{ latitude: place.Latitude, longitude: place.Longitude }}
             />
             ))}
-        </MapView>
+      </MapView>
     </Modal>
   );
 }
 
 const styles = StyleSheet.create({
   MapContainer: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
     height: '100%' 
   }
 });

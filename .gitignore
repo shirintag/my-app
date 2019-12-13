@@ -13,3 +13,8 @@ web-report/
 data.json
 # macOS
 .DS_Store
+.firebaserc
+.database.rules.json
+firebase.json
+functions/
+React Native Debugger.app/
